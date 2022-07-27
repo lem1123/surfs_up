@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Module Practice
+climate_analysis.ipynb
+
+# Checkpoints
+SurfsUp_Challenge-checkpoint.ipynb

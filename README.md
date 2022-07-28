@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-The overview of this analysis was to review weather data 
+The overview of this analysis was to review weather data and prepare a business plan in order to entice an investor, W. Avy to provide financial backing for a surf and shake shack that we are interested in opening in Hawaii.  By using SQLite, specifically SQLAlchemy in connection with Pandas and Jupyter Notebook, we were able to query the data from a specific source file and provide cohesive results in the form of Pandas DataFrames.
 
 
 ## Results
@@ -38,4 +38,4 @@ dec_results = session.query(Measurement.date, Measurement.tobs).filter(extract("
 
 ## Summary
 
-In conclusion, it appears that the weather data provided for the temperatures in June and December are not that different.  
+In conclusion, it appears that the weather data provided for the temperatures in June and December are not that different. 

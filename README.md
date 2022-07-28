@@ -38,11 +38,11 @@ The weather results for December were found using a similar query to that of the
 dec_results = session.query(Measurement.date, Measurement.tobs).filter(extract("month", Measurement.date) == 12).all()
 
 ```
-As shown in the DataFrame table below, the average temperature for December appears to be 71 degrees.  The max temperature appears to be 
+As shown in the DataFrame table below, the average temperature for December appears to be 71 degrees.  The max temperature appears to be 83 and the min or lowest temperature is only 56 degrees.  
 
 ![December_Temps.png](December_Temps.png)
 
 
 ## Summary
 
-In conclusion, it appears that the weather data provided for the temperatures in June and December are not that different. 
+In conclusion, it appears that the weather data provided for the temperatures in June and December are not that different aside from December being slightly cooler.  It appears that the average temperatures for June and December only have a difference of three degrees.  The most significant difference was between the min temperature which was 64 degrees for June and 56 degrees for December.  
